@@ -3,7 +3,11 @@ package edu.itstep;
 public class ArrayListUser {
 
     private User[] _data;
-    private int _size;
+    private int _size = 0;
+    
+    public ArrayListUser(){
+        _data = new User[size];
+    }
 
     public int size() {
         return _size;
