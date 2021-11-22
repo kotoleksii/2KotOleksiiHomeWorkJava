@@ -2,9 +2,9 @@ package edu.itstep;
 
 public class User {
 
-    String _firstName;
-    String _lastName;
-    int _age;
+    private String _firstName;
+    private String _lastName;
+    private int _age = 0;
 
     public User() {
     }
